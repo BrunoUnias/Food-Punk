@@ -1,0 +1,86 @@
+header {
+    width: 100%;
+    padding: 60px 4px;
+    background-color: brown;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 120px;
+    filter: invert(100%);
+
+}
+
+.busca {
+    display: flex;
+    align-items: center;
+    width: 367px;
+    height: 48px;
+    margin-left: 8px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #121212;
+
+}
+
+.busca input {
+    width: 347px;
+    height: 34px;
+    background: transparent;
+    border: none;
+    padding: 0px 100px 0px 12px;
+    color: #121212;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    outline: none;
+
+}
+
+.lupa button {
+    width: 42px;
+    height: 42px;
+    margin-right: 3px;
+    align-items: center;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.lupa img {
+    filter: invert(100%);
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 5px 20px;
+
+}
+
+li {
+    padding: 5px 8px;
+
+}
+
+.botao {
+    padding: 16px 16px;
+    margin-top: 5px;
+    border-radius: 50px;
+    color: #018749;
+    background: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: medium;
+}
